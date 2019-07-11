@@ -4,15 +4,34 @@ p {
     margin: 0px 550px 0px 50px;
     border: 1px;
     padding: 10px;
+ 
 }
 
 .logo {
     float: left;
+    width: 300px;
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
 }
 
 .main-header {
     display: flex;
     align-items: center;
+    font-size: 30pt;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 5px
+}
+h1 {
+    display: flex;
+    padding-top: 30px;
+}
+
+h2 {
+    background-color: rgba(243, 171, 83, 0.459);
+    padding-top: 1px;
+    margin-top: 1px;
 }
 
 .corgi {
@@ -20,6 +39,7 @@ p {
     float: right;
     width: 700px;
     margin: 10px;
+    padding: 20px;
 }
 
 .lead {
@@ -28,15 +48,38 @@ p {
     font-style: italic;
 }
 h3 {
-    margin: 10px;
-    padding: 20px;
+    margin: 10px 1px 10px 10px;
+    padding: 20px 2px 20px 20px;
     border: 1px solid pink;
+    text-decoration: underline;
+    position: static;
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
     float: right;
+    margin: 20px;
+    padding: 10px;
+    border: 1px dotted black;
+    width: 400px;
+    height: 500px;
 }
+
+h4 {
+    display: flexbox;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 10px 10px 40px;
+}
+
 li {
-    color: red;
-    background-color: blanchedalmond;
+    display: flexbox;
+    width: 300px;
+    height: 80px;
+}
+
+footer {
+    display: block;
 }
